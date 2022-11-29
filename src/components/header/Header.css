@@ -1,0 +1,106 @@
+.app__bar{
+    width: 100%;
+    height: 6rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.company__info__container{
+    width:20%; 
+    background-color: rgb(255, 2, 2);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.header__body__container{
+    width: 60%;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    height: 100%;
+}
+.user__info__container{
+    width: 20%;
+    height: 100%;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {   
+    .app__bar{
+        flex-wrap: wrap;
+        height: 4rem;
+    }
+    .company__info__container{
+        width: 100%;
+    }
+    .header__body__container{
+        width: 0px;
+    }
+    .user__info__container{
+        width: 100%;
+        background-color: white;
+    }
+    
+ }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {  
+    
+    
+  }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {   
+    .company__info__container{
+        width: 30%;
+    }
+    .header__body__container{
+        width: 40%;
+    }
+    .user__info__container{
+        width: 30%;
+    }
+    .app__bar{
+        height: 4.5rem;
+    }
+ }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {   
+    .company__info__container{
+        width: 25%;
+    }
+    .header__body__container{
+        width: 50%;
+    }
+    .user__info__container{
+        width: 25%;
+    }
+ }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {  
+    .company__info__container{
+        width: 20%;
+    }
+    .header__body__container{
+        width: 62%;
+    }
+    .user__info__container{
+        width: 18%;
+    }
+  }
+  @media only screen and (min-width: 1600px) {  
+    .company__info__container{
+        width: 15%;
+    }
+    .header__body__container{
+        width: 70%;
+    }
+    .user__info__container{
+        width: 15%;
+    }
+  }
+

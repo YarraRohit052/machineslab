@@ -1,0 +1,18 @@
+.exp__actions__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    max-width: 750px;
+    padding: 1rem;
+    width: 750px;
+    margin-bottom: 1.5rem;
+}
+.exp__actions{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.exp__actions__container button{
+    margin: 0.5rem 1rem;
+}
